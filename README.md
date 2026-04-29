@@ -59,14 +59,6 @@ https://youtu.be/RaKKIkONf-4
 
 ---
 
-## ⚙️ Router Configuration
+## ⚙️ Router Configuration & Network Configuration
 
-### 🔸 Router4
-```bash
-int fa0/0
-ip address 192.168.0.1 255.255.255.0
-do wr
-exit
-
-int se0/1/0
-ip address 192.168.1.1 255.255.255.0
+- Router and Network Configuration are in ACL script file.txt
